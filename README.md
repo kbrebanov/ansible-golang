@@ -1,7 +1,7 @@
 golang
 ======
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.golang-660198.svg)](https://galaxy.ansible.com/list#/roles/3671)
+[![Ansible Role](https://img.shields.io/ansible/role/3671.svg)](https://galaxy.ansible.com/list#/roles/3671)
 
 Installs Go language
 
