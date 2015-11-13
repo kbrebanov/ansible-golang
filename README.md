@@ -15,7 +15,7 @@ Role Variables
 
 | Name           | Default | Description              |
 |----------------|---------|--------------------------|
-| golang_version | 1.4.2   | Version of Go to install |
+| golang_version | 1.5.1   | Version of Go to install |
 
 Dependencies
 ------------
