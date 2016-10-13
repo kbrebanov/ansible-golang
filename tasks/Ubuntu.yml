@@ -28,7 +28,6 @@
     dest: "{{ golang_godeb_install_dir }}"
     owner: root
     group: root
-    mode: 0755
     copy: no
     creates: "{{ golang_godeb_install_dir }}/godeb"
   tags:
