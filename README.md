@@ -26,17 +26,19 @@ Example Playbook
 ----------------
 
 Install Go language using the default version
-```
+```yaml
 - hosts: all
   roles:
-    - { role: kbrebanov.golang }
+    - kbrebanov.golang
 ```
 
 Install Go language specifying a version
-```
+```yaml
 - hosts: all
+  vars:
+    golang_version: 1.2
   roles:
-    - { role: kbrebanov.golang, golang_version: 1.2 }
+    - kbrebanov.golang
 ```
 
 License
