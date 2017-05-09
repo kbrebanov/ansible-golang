@@ -44,6 +44,6 @@
 - name: Install Go
   become: yes
   command: "{{ golang_godeb_install_dir }}/godeb install {{ golang_version }}"
-  when: version.stdout != "go{{ golang_version }}"
+  when: version.stdout != "go" ~ golang_version
   tags:
     - golang
